@@ -5,10 +5,25 @@ class NavigationProvider with ChangeNotifier {
   int _selectedIndex = 1;
 
   int get selectedIndex => _selectedIndex;
-
+   bool buttonColor=false;
   void updateIndex(int index) {
     _selectedIndex = index;
     notifyListeners();
+  }
+   bool updatecolor = false;
+  bool option=false;
+  bool updateOpacity=false;
+ 
+  void updateOption() {
+   updatecolor = !updatecolor; // Flip the boolean value
+    option = !option;
+    updateOpacity=!updateOpacity;
+    notifyListeners();
+  }
+
+  void ChangeButtonColor(){
+      buttonColor = !buttonColor;
+      notifyListeners();
   }
 
   String generateExpiryDate() {
