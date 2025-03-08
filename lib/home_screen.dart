@@ -4,8 +4,6 @@ import 'package:yolo_intern/ginnie.dart';
 import 'package:yolo_intern/home.dart';
 import 'package:yolo_intern/yolo_pay.dart';
 import 'navigation_provider.dart';
-import 'card_freeze_screen.dart';
-import 'card_details_screen.dart';
 
 class HomeScreen extends StatelessWidget {
    List<Widget> widgetOptions = <Widget>[

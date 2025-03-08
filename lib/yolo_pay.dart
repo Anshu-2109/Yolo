@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:faker/faker.dart' as faker;
 import 'package:provider/provider.dart';
 import 'package:yolo_intern/card_details_screen.dart';
 import 'package:yolo_intern/navigation_provider.dart';
